@@ -2,8 +2,8 @@
 Contributors:redsnow_
 Tags: breadcrumb, topic path, microdata
 Requires at least: 3.1
-Tested up to: 3.6
-Stable tag: 1.0.0
+Tested up to: 3.7
+Stable tag: 1.1
 
 Adds the function to display breadcrumbs navigation.
 
@@ -168,6 +168,9 @@ current page Output or not. Default: false (not).
 If you specify 0 or false, return values as PHP.
 
 == Changelog ==
+= 1.0.1 =
+* Update japan language.
+
 = 1.0.0 =
 * Opening to the public.
 

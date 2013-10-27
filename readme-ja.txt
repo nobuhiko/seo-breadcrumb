@@ -2,8 +2,8 @@
 Contributors: redsnow_
 Tags: breadcrumb, topic path, microdata
 Requires at least: 3.1
-Tested up to: 3.6
-Stable tag: 1.0.0
+Tested up to: 3.7
+Stable tag: 1.0.1
 
 パンくずナビ（トピックパス）表示機能を追加します。
 
@@ -148,6 +148,9 @@ typeでstringを指定した場合の結合文字列。デフォルトは「 &am
 表示中のページを表示するか。デフォルトはfalse（出力しない）0またはfalseの指定でPHPの値としてreturnする。
 
 == Changelog ==
+= 1.0.0 =
+* 日本語翻訳ファイルを修正
+
 = 1.0.0 =
 * 一般公開
 
