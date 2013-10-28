@@ -4,14 +4,30 @@ Plugin Name: SEO BreadCrumb
 Plugin URI: http://nob-log.info/wordpress-plugin-seo-bread-crumb
 Description: This plugin adds the function to display breadcrumbs (topic path) navigation that supports HTML5 micorodata. You can use display styles, lots of parameters of styles and original plugin hooks of breadcrumbs navigation, and you can customize navigations flexibly.
 Author: Nobuhiko Kimoto
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://nob-log.info
 License: GPLv2 or later
 PHP Version: Require PHP5
 Text Domain: seo-breadcrumb
-Domain Path: /languages
+Domain Path: /lang
+Origin: http://wordpress.org/plugins/prime-strategy-bread-crumb/
 */
 
+/*  Copyright 2013 Nobuhiko Kimoto (email : info@nob-log.info)
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License, version 2, as
+published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ */
 class prime_strategy_bread_crumb
 {
     function __construct()
