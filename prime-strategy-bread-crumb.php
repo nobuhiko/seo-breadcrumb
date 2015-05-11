@@ -153,7 +153,9 @@ class prime_strategy_bread_crumb
                     $classes[] = $args['class_prefix'] . 'sub';
                 }
                 if ($cnt == count($bread_crumb_arr)) {
-                    if ($args['disp_current'] === false) continue;
+                    if ($args['disp_current'] === false) {
+                        continue;
+                    }
                     $classes[] = $args['class_prefix'] . 'tail';
                     $output .= $elm_tabs . $tabs . '<li class="' . implode(' ', $classes);
                     if ($args['li_class']) {
