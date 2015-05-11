@@ -430,10 +430,10 @@ class prime_strategy_bread_crumb
 
         switch ($month_format) {
             case 'F' :
-                $month = $wp_locale->get_month( $monthnum );
+                $month = $wp_locale->get_month($monthnum);
                 break;
             case 'M' :
-                $month = $wp_locale->get_month_abbrev( $wp_locale->get_month( $monthnum ) );
+                $month = $wp_locale->get_month_abbrev($wp_locale->get_month($monthnum));
                 break;
             default :
                 $month = $monthnum;
